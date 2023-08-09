@@ -2,7 +2,7 @@
 
 # conjur-credentials-plugin
 
-**This repo is no longer maintained. See https://github.com/jenkinsci/conjur-credentials-plugin for the latest code!**
+**This repo is no longer maintained. See https://github.cyberng.com/Conjur-Enterprise/conjur-credentials-plugin for the latest code!**
 
 This Conjur plugin securely provides credentials that are stored in Conjur to Jenkins jobs.  
 
@@ -11,13 +11,18 @@ This Conjur plugin securely provides credentials that are stored in Conjur to Je
 * [SECURING SECRETS ACROSS THE CI/CD PIPELINE](https://www.conjur.org/use-cases/ci-cd-pipelines/)
 * [CI/CD Servers Know All Your Plumbing Secrets](https://www.conjur.org/blog/ci-cd-servers-know-all-your-plumbing-secrets/)
 
-## Usage
+## Plugin Installation
 
-Install the plugin using Jenkins "Plugin Manager" with an administrator account. After installing the plugin and restarting Jenkins, you are ready to start. 
+Install the conjur-credentials plugin using Jenkins "Plugin Manager" with an administrator account. After installing the plugin and restarting Jenkins, you are ready to start. 
+
+## Configuring Conjur Credentials Parameters in Jenkins
 
 ### Global Configuration
 
-A global configuration allows any job to use the configuration, unless a folder-level configuration overrides the global configuration. Click the **Global Credentials** tab.
+A global configuration allows any job to use the defined configuration, unless a folder-level configuration overrides the global configuration. 
+Click the **Global Credentials** tab.
+
+For Global Configuration, go to Manage Jenkins -> System Configuration -> Configur System
 
  Define the Conjur Account and Appliance URL to use.
 
